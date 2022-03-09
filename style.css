@@ -1,0 +1,218 @@
+/* CSS Reset y fuente general */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*** Barra de navegación ***/
+
+.nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-title {
+    color: whitesmoke;
+    font-weight: lighter;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.nav-links {
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-links li {
+    margin: 8px;
+}
+
+.nav-links .active {
+    font-weight: bold;
+}
+
+.nav .signout-btn {
+    color: whitesmoke;
+    padding: 4px;
+    border: 0;
+    background-color: deepskyblue;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+/*** El resto ***/
+
+.el-resto {
+    padding-top: 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main-box {
+    margin: 20px;
+}
+
+.main-box-title {
+    background-color: #383838;
+    color: white;
+    height: 60px;
+    border-top-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box-info,
+.view-more {
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+}
+
+/** Columna Izquierda **/
+
+.main-col-left {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Profile Box */
+
+#profile-box {
+    width: 500px;
+}
+
+#enceleste {
+    background-color: rgb(20, 174, 212);
+    height: 90px;
+    border-top-right-radius: 4px;
+}
+
+#profile-info {
+    padding-top: 40px;
+}
+
+#profile-info div, #profile-info h2 {
+    margin: 15px;
+}
+
+.place span {
+    font-size: 19px;
+}
+
+.edit-option a {
+    color: dodgerblue;
+}
+
+img.profile-pic[src$="-m.jpg"] {
+    width: 110px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 3px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+img.gear-icon {
+    width: 15px;
+}
+
+img.place-icon {
+    width: 10px;
+}
+
+/* Education Box */
+
+#education-box .main-box-title {
+    padding-left: 40px;
+    justify-content: flex-start;
+}
+
+#education-box .main-box-info * {
+    margin: 15px;
+}
+
+#education-box .main-box-info h3+p {
+    color: grey;
+}
+
+/** Columna Derecha **/
+
+.main-col-right {
+    display: flex;
+    flex-direction: column;
+}
+
+img.profile-pic[src$="-s.jpg"] {
+    width: 45px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.number-of {
+    background-color: dimgray;
+    border-radius: 50%;
+    padding: 3px 8px;
+    margin: 5px;
+}
+
+/* Connection Request Box */
+
+#your-connections {
+    width: 250px;
+}
+
+.one-conn-req {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one-conn-req div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.conn-icon {
+    width: 25px;
+    margin: 2px;
+}
+
+.one-conn-req span {
+    margin: 5px;
+}
+
+/* Your Connections Box */
+
+.view-more a {
+    color: dodgerblue;
+}
+
+.one-conn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.one-conn span {
+    margin: 5px;
+}

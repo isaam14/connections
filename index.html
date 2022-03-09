@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación  -->
+    <div class="nav">
+        <div class="nav-left">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button class="signout-btn">Sign Out</button>
+    </div>
+    <div class="el-resto">
+        <div class="main-col-left">
+            <!-- Perfil del Usuario  -->
+            <div class="main-box" id="profile-box">
+                <div id="enceleste">
+                    <img class="profile-pic" src="images/jane-m.jpg" alt="user circle icon">
+                </div>
+                <div class="main-box-info" id="profile-info">
+                    <h2>Jane Doe</h2>
+                    <div class="place">
+                        <img class="place-icon" src="icons/map-marker.png" alt="map-marker icon">
+                        <span>Seattle</span>
+                    </div>
+                    <div class="description">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the internet!</p>
+                    </div>
+                    <div class="edit-option">
+                        <img class="gear-icon" src="icons/gear.png" alt="gear icon">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box sobre la Educación  -->
+            <div class="main-box" id="education-box">
+                <div class="main-box-title">
+                    <Span>Education</Span>
+                </div>
+                <div class="main-box-info">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and Web Fundamentals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-col-right">
+            <!-- Box de Solicitudes de conección -->
+            <div class="main-box" id="connection-requests">
+                <div class="main-box-title">
+                    <span class="number-of">2</span>
+                    <Span>Connection Requests</Span>
+                </div>
+                <div class="main-box-info">
+                    <div class="one-conn-req">
+                        <div>
+                            <img class="profile-pic" src="images/todd-s.jpg" alt="Todd's profile picture">
+                            <span>Todd E</span>
+                        </div>
+                        <div>
+                            <a href="#"><img class="conn-icon" src="icons/accept-circle.png" alt="accept"></a>
+                            <a href="#"><img class="conn-icon" src="icons/close-circle.png" alt="close"></a>
+                        </div>
+                    </div>
+                    <div class="one-conn-req">
+                        <div>
+                            <img class="profile-pic" src="images/phil-s.jpg" alt="Phil's profile picture">
+                            <span>Phil K</span>
+                        </div>
+                        <div><a href="#"><img class="conn-icon" src="icons/accept-circle.png" alt="accept"></a>
+                            <a href="#"><img class="conn-icon" src="icons/close-circle.png" alt="close"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Box de Conecciones del Usuario -->
+            <div class="main-box" id="your-connections">
+                <div class="main-box-title">
+                    <span class="number-of">500+</span>
+                    <Span>Your connections</Span>
+                </div>
+                <div class="main-box-info">
+                    <div class="one-conn">
+                        <img class="profile-pic" src="images/adrien-s.jpg" alt="Adrien's profile picture">
+                        <span>Adrien D</span>
+                    </div>
+                    <div class="one-conn">
+                        <img class="profile-pic" src="images/anne-s.jpg" alt="Anne's profile picture">
+                        <span>Anne J</span>
+                    </div>
+                    <div class="one-conn">
+                        <img class="profile-pic" src="images/alayne-s.jpg" alt="Alayne's profile picture">
+                        <span>Alayne T</span>
+                    </div>
+                    <div class="one-conn">
+                        <img class="profile-pic" src="images/arry-s.jpg" alt="Arry's profile picture">
+                        <span>Arry Y</span>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
